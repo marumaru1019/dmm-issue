@@ -1,0 +1,11 @@
+// ブートストラップは最初に読み込まないと後半のscssがおかしいことになるので注意
+@import "~bootstrap/scss/bootstrap";
+@import "~hamburgers/_sass/hamburgers/hamburgers";
+
+// layout
+// _がついていても関係なくimport出来る
+@import "./mixin/_mixin";
+@import "./base/_status";
+@import "./base/_base";
+
+@import "./base/omikuji";

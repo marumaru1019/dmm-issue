@@ -1,0 +1,21 @@
+# 開發用fileなので不要
+views/main.js
+
+# Security的にいらない
+iam-maru.csv
+*.sh
+node_modules/
+cdn.html
+
+
+# 拡張子を無視
+# exe ファイルは要らない
+# *.exe
+
+# 特定のパターンは無視しない
+# nuget.exe は必用なファイル
+# !/.nuget/nuget.exe
+
+# フォルダ内の徳亭拡張子を無視
+# パッケージフォルダ内の .ts ファイルは要らない
+# package/**/*.ts
